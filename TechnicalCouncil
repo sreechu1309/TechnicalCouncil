@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical council</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@1,700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="page.html"><img src="img3.png" height="150"  alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Members</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+    <div class="aboutus">
+        <h2 class="About">About us</h2>
+        <h3 class="About1">The Technical Council, NIT Tiruchirappalli is a wing of Students' Council, responsible for managing,
+            ideating and
+            supervising most things tech in the college. The duties and responsibilities of the body mainly revolve around three
+            entities :</h3>
+        <br>
+        <h3>1. Campus: The Technical Council works for campus development, spearheading initiatives, organising TechTalks,
+            workshops, a prominent example being the DSC workshops and contacting technical companies for giveaways for the
+            students. Moreover, the Technical Council also coordinates with the CoEs, ISRO incubation centre and other labs to
+            ensure a thriving platform for budding tech enthusiasts.</h3>
+        <br>
+        <h3>2. Pragyan: The Technical Council ideates upon and implements, 'Technical Showcases' (videos and setups utilising a
+            prominent technology to showcase the number of days to go for Pragyan), organises Gamescape and conducts initiatives
+            like the Human Library. The Technical Council also aids in the conduction of events during Pragyan.</h3>
+        <br>
+        <h3>3. Technical Clubs: The Technical Council along with the technical secretary monitors and manages the activities of
+            the
+            various technical clubs on the campus.</h3>
+        <br>
+        <h3>team size of 51-200 employees</h3>
+        <br>
+    </div>
+    <div class="projects">
+            <h2 class="About">Projects</h2>
+            <img class="image" src="img7.jpeg" width="400" alt="">
+            <br>
+            <img class="image1" src="img8.jpeg" width="400" alt="">
+            <img class="image2" src="img9.jpeg" width="400" alt="">
+    </div>
+    <div class="imggg">
+        <h2 class="About">Core members</h2>
+        <img class="imgg" width="800" src="img10.jpeg" alt="">
+    </div>
+    <div class="mapp">
+        <h2 class="About">Contact us</h2>
+
+        <p class="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.682453883996!2d78.8110294147182!3d10.75893809233344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa8d629caf2fbb%3A0x165282096ce1668f!2sBarn%20Hall!5e0!3m2!1sen!2sin!4v1662150561652!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+    </div>
+    <div class="socialize">
+        <div class="media">
+        <ul>
+            <li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+        </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0),rgba(4, 9, 30, 0)),url(img4.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: dotted;
+    font-size: 15px;
+}
+.nav-links ul li{
+    background-color: black;
+    color: blue;
+}
+.nav-links ul li:hover{
+    background-color: aquamarine;
+    color: chartreuse;
+}
+.About{
+    color: black;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    padding: 5%;
+    font-size: 93px;
+}
+.About1{
+    padding: 2px;
+}
+.image{
+    position: relative;
+    left: 100px;
+}
+.image1{
+    position: relative;
+    left: 900px;
+    bottom: 500px;
+}
+.image2{
+    position: relative;
+    left: 100px;
+}
+.aboutus{
+    background-color: aquamarine;
+}
+.aboutus::backdrop{
+    background-color: blueviolet;
+}
+.projects{
+    background-color: brown;
+}
+.projects:hover{
+    background-color: darkviolet;
+}
+.imgg{
+    position: relative;
+    left: 350px;
+}
+.imggg{
+    background-color: darkblue;
+}
+.map{
+    position: relative;
+    left: 500px;
+}
+li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: black;
+    border: 1px solid red;
+    border-right: 50%;
+    transition: .5s;
+}
+li:hover{
+    background-color: blue;
+}
+.socialize{
+    background-color: coral;
+}
